@@ -1,16 +1,15 @@
-### Hi there 👋
+package app;
 
-<!--
-**Macai10/Macai10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+public class HelloWorld {
 
-Here are some ideas to get you started:
+	private void sayHello(String name)
+	{
+		System.out.println("Hello, my name is " + name);
+	}
+	public static void main(String[] args) 
+	{
+		HelloWorld hello = new HelloWorld();
+		hello.sayHello("Macai");
+	}
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
